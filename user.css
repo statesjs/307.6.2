@@ -4,6 +4,10 @@ body {
   min-height: 100%;
 }
 
+div {
+  border-style: ;
+}
+
 .bg {
   position: fixed;
   top: 0;
@@ -37,16 +41,54 @@ body {
 }
 
 .a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  width: 33%;
+  z-index: 1;
+}
+
+.a1 {
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  margin-top: 3rem;
+}
+
+.a2 {
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+  margin-top: 3rem;
+}
+
+.b {
   height: 100%;
   width: 100%;
   width: 33%;
   z-index: 99;
+  margin-top: 3rem;
 }
 
-.b {
-  width: 33%;
+.b1 {
+  width: 30rem;
+}
+
+.b2 {
+  width: 30%;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .c {
+  height: 100%;
+  width: 100%;
   width: 33%;
+  z-index: 99;
 }
