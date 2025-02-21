@@ -10,7 +10,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: center / 1000px url(imgs/gym.jpg) no-repeat,
+  background: center / 1000px url(imgs/anders-jilden-AkUR27wtaxs-unsplash.jpg)
+      no-repeat,
     radial-gradient(#5e5151, #15183a);
 }
 
