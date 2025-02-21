@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: center / 1000px url(imgs/gym.jpg) no-repeat,
+    radial-gradient(#5e5151, #15183a);
+}
+
+.icon {
+  height: 36px;
+  width: 36px;
+  margin-right: 20px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.icon:hover {
+  transform: rotate(360deg);
+}
+
+.navbar-brand {
+  color: aquamarine;
+}
+/* the 3 main divs in columns below the nav bar*/
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.a {
+  height: 100%;
+  width: 100%;
+  width: 33%;
+  z-index: 99;
+}
+
+.b {
+  width: 33%;
+}
+
+.c {
+  width: 33%;
+}
